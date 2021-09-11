@@ -25,7 +25,7 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <a href="http://rafapages.com">
-          <img src="img/rafa_electro.jpg" class="img-fluid" alt="Vologram progression">
+          <img src="img/rafa_electro_new_logo.jpg" class="img-fluid" alt="Vologram progression">
         </a>
         </div>
       </div>
@@ -75,6 +75,48 @@
             </td>
           </tr>
 
+
+
+          <!-- Paper -->
+          <tr onmouseout="resol_stop()" onmouseover="resol_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='facemirror_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="research/facemirror_after.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='research/face-mirror.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function resol_start() {
+                  document.getElementById('facemirror_image').style.opacity = "1";
+                }
+                function resol_stop() {
+                  document.getElementById('facemirror_image').style.opacity = "0";
+                }
+                resol_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://ieeexplore.ieee.org/abstract/document/6116055" target="_blank">
+                <papertitle>Influence of Mirror Therapy (Specular Face Software) on Electromyographic Behavior of the Facial Muscles for Facial Palsy</papertitle>
+              </a>
+              <br>
+              <a>Alfonso Gil-Martínez</a>,
+              <a>Sergio Lerma-Lara</a>,
+              <a>Alfredo Hernando-Jorge</a>,
+              <a>Ana Campos-Vegas</a>,
+              <a>Audrey Aceval</a>,
+              <strong>Rafael Pagés</strong>,
+              <a>Francisco Morán</a>,
+              <a>Hector Beltran-Alacreu</a>
+              <br>
+              <em>Brain Sciences, 11(7), 930</em>, 2021
+              <br>
+              <p>Using facial detection and tracking to simulate “mirror therapy” to help patients with facial paralysis.
+              </p>
+              </td>
+          </tr>
           <!-- Paper -->
           <tr onmouseout="autotrack_stop()" onmouseover="autotrack_start()">
             <td style="padding:20px;width:25%;vertical-align:middle">
