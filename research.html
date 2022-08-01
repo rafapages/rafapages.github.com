@@ -86,7 +86,82 @@
             </td>
           </tr>
 
+          <!-- Paper -->
+          <tr onmouseout="resol_stop()" onmouseover="resol_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='facemirror_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="research/facemirror_after.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='research/face-mirror.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function resol_start() {
+                  document.getElementById('facemirror_image').style.opacity = "1";
+                }
+                function resol_stop() {
+                  document.getElementById('facemirror_image').style.opacity = "0";
+                }
+                resol_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2207.09204" target="_blank">
+                <papertitle>VoloGAN: Adversarial Domain Adaptation for Synthetic Depth Data</papertitle>
+              </a>
+              <br>
+              <a>Sascha Kirch</a>,
+              <a>Sergio Arnaldo</a>,
+              <a>Sergio Martín</a>,
+              <strong>Rafael Pagés</strong>
+              <br>
+              <em>Arxiv</em>, 2022
+              <br>
+              <p>We present VoloGAN, an adversarial domain adaptation network that translates synthetic RGB-D images of a high-quality 3D model of a person, into RGB-D images that could be generated with a consumer depth sensor. 
+              </p>
+              </td>
+          </tr>
 
+
+          <!-- Paper -->
+          <tr onmouseout="autotrack_stop()" onmouseover="autotrack_start()">
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <div class="one">
+                <div class="two" id='autotrack_image'><video  width=100% height=100% muted autoplay loop>
+                <source src="research/autotrack.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video></div>
+                <img src='research/autotrack.jpg' width="160">
+              </div>
+              <script type="text/javascript">
+                function autotrack_start() {
+                  document.getElementById('autotrack_image').style.opacity = "1";
+                }
+                function autotrack_stop() {
+                  document.getElementById('autotrack_image').style.opacity = "0";
+                }
+                autotrack_stop()
+              </script>
+            </td>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="http://dx.doi.org/10.13140/RG.2.2.24235.31529/1" target="_blank">
+                <papertitle>Volograms & V-SENSE Volumetric Video Dataset</papertitle>
+              </a>
+              <br>
+              <strong>Rafael Pagés</strong>,
+              <a>Emin Zerman</a>,
+              <a>Konstantinos Amplianitis</a>,
+              <a>Jan Ondrej</a>,
+              <a>Aljosa Smolic</a>
+              <br>
+              <em>ISO/IEC JTC1/SC29/WG07 MPEG2021/m56767</em>, 2021
+              <br>
+              <a href="https://volograms.com/research-datasets" target="_blank">project page</a>
+              <p>This paper describes the Volograms & V-SENSE Volumetric Video Dataset which is made publicly available to help said research and standardisation efforts.
+              </p>
+            </td>
+          </tr>
 
           <!-- Paper -->
           <tr onmouseout="resol_stop()" onmouseover="resol_start()">
